@@ -14,6 +14,7 @@ import java.util.List;
 public class Project {
     @Id
     private int project_id;
+
     @NotNull
     private String project_name;
     @NotNull
